@@ -1,0 +1,379 @@
+#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\setcounter{page}{1}
+\usepackage{epsfig}
+\usepackage{url}
+\usepackage[T1]{fontenc}
+\usepackage{ae,aecompl}
+\usepackage{morefloats}
+\usepackage{subfigure}
+\usepackage[small,centerlast]{caption}
+\usepackage[nottoc]{tocbibind}
+\interfootnotelinepenalty=10000
+\end_preamble
+\options a4paper
+\use_default_options false
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize 10
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle headings
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Appendix X
+\begin_inset Newline newline
+\end_inset
+
+Graphs for 100 Test Runs
+\begin_inset Newline newline
+\end_inset
+
+of Prototype [name]
+\end_layout
+
+\begin_layout Author
+Appendix for Master Thesis:
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+Different Paths to High Availability
+\begin_inset Newline newline
+\end_inset
+
+by Introducing Redundancy
+\begin_inset Newline newline
+\end_inset
+
+in a Distributed SCADA System
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Comments to the Graphs
+\end_layout
+
+\begin_layout Standard
+TODO
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename [name]-aggregated-timings.pdf
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Aggregated max and mean of the max values for all 100 test runs.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Network Measurements
+\end_layout
+
+\begin_layout Standard
+The two figures on the following page shows the network measurements of
+ the nodes in the test system before and after the 100 test runs.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{figure}[hp!]
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\backslash
+makebox[
+\backslash
+textwidth]{%
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subfigure{
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[width=0.75
+\backslash
+textwidth]
+\end_layout
+
+\begin_layout Plain Layout
+
+{[network-hops-before]}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subfigure{
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[width=0.75
+\backslash
+textwidth]
+\end_layout
+
+\begin_layout Plain Layout
+
+{[network-rtt-before]}}
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+caption{Network measurements 
+\backslash
+emph{before} the test runs.}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+label{fig:Network-measurements-before}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\backslash
+makebox[
+\backslash
+textwidth]{%
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subfigure{
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[width=0.75
+\backslash
+textwidth]
+\end_layout
+
+\begin_layout Plain Layout
+
+{[network-hops-after]}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+subfigure{
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+includegraphics[width=0.75
+\backslash
+textwidth]
+\end_layout
+
+\begin_layout Plain Layout
+
+{[network-rtt-after]}}
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+caption{Network measurements 
+\backslash
+emph{after} the test runs.}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+label{fig:Network-measurements-after}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{figure}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Measurements for the 100 Prototype Test Runs
+\end_layout
+
+\begin_layout Standard
+The following 100 images each depict the measured timings during 
+\emph on
+one
+\emph default
+ prototype test run.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+thesubfigure}{(Test run 
+\backslash
+arabic{subfigure})} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

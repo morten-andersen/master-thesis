@@ -1,0 +1,31 @@
+subprojects {
+	apply plugin: 'java'
+	apply plugin: 'eclipse'
+	
+	dependencies {
+		testCompile fileTree(dir: '../lib/test', include: '*.jar')
+		compile fileTree(dir: '../lib', include: '*.jar')
+	}
+
+	sourceCompatibility = 1.6
+	targetCompatibility = 1.6
+	version = '1.0'
+
+	sourceSets {
+		// includes all resources present in the source folders
+		main {
+			resources {
+				srcDir 'src/main/java'
+			}
+		}
+	}
+		
+	cleanEclipse.doLast {
+		ant.delete(dir: 'bin')
+		ant.delete(dir: '.settings')
+	}
+	
+	clean.doLast {
+		ant.delete(dir: 'logs')
+	}
+}

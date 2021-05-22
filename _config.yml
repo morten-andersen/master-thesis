@@ -1,0 +1,10 @@
+theme: jekyll-theme-cayman
+defaults:
+  - scope:
+      path: ""
+    values:
+      title: "⚙️ Morten Andersen ⚙️ Master Thesis 2011"
+      image:
+        path: /master2011-MA-frontpage.png
+        height: 640
+        width: 1280

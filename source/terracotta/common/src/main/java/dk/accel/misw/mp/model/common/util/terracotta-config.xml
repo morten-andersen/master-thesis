@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tc:tc-config xmlns:tc="http://www.terracotta.org/config"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.terracotta.org/schema/terracotta-6.xsd">
+
+<servers>
+	<server host="server-0" name="server-0">
+		<dso-port>9510</dso-port>
+		<jmx-port>9520</jmx-port>
+	</server>
+	<server host="server-1" name="server-1">
+		<dso-port>9510</dso-port>
+		<jmx-port>9520</jmx-port>
+	</server>
+	<server host="server-2" name="server-2">
+		<dso-port>9510</dso-port>
+		<jmx-port>9520</jmx-port>
+	</server>
+</servers>
+</tc:tc-config>

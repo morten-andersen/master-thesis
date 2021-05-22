@@ -1,0 +1,50 @@
+subprojects {
+	apply plugin: 'java'
+	apply plugin: 'eclipse'
+	
+	dependencies {
+		testCompile fileTree(dir: '../lib/test', include: '*.jar')
+		compile fileTree(dir: '../lib', include: '*.jar')
+	}
+
+	sourceCompatibility = 1.6
+	targetCompatibility = 1.6
+	version = '1.0'
+
+	sourceSets {
+		// includes all resources present in the source folders
+		main {
+			resources {
+				srcDir 'src/main/java'
+			}
+		}
+	}
+		
+	jar.doFirst {
+		manifest {
+			attributes(
+				"Main-Class": "dk.accel.misw.mp.Main",
+				'Class-Path': configurations.runtime.collect { File file -> file.name }.sort().join(' ') 
+			)
+		}
+	}
+	
+	task zip(type: Zip, dependsOn: jar) {
+		from jar.archivePath
+		rename "${project.name}-${version}.jar", 'launch.jar'
+		from configurations.runtime
+	}
+	
+	task show << {
+		configurations.testCompile.each { dep -> println dep.name }
+	}
+	
+	cleanEclipse.doLast {
+		ant.delete(dir: 'bin')
+		ant.delete(dir: '.settings')
+	}
+	
+	clean.doLast {
+		ant.delete(dir: 'logs')
+	}
+}

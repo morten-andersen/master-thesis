@@ -1,0 +1,12 @@
+Server:
+	TurbineObserverSvcImpl is changed to be a Hazelcast topic message listener.
+
+
+Node:
+	NodeSubscriptionServiceImpl is changed to keep manually track of callbacks for 
+	individual servers, to instead just publish all changed values to a a hazelcast
+	topic. This simplifies the callback handling a lot with respect to exception handling
+	and thread and state handling, as we do not longer need:
+		- to keep track of which server subscribed for which sensor.
+		- to have each callback happen in a seperate thread (as hazelcast handles
+		  the asynchronous aspect).

@@ -1,0 +1,10 @@
+HashKnownHosts no
+UserKnownHostsFile ./ssh/known_hosts
+StrictHostKeyChecking no
+
+Host *.eu-west-1.compute.amazonaws.com
+Compression yes
+PreferredAuthentications publickey
+User ubuntu
+IdentityFile ./ssh/aws-itvest.pem
+

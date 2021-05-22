@@ -1,0 +1,5 @@
+dependencies {
+    compile project(':common')
+    compile fileTree(dir: '../terracotta-3.5.1/terracotta-3.5.1/lib', include: '*.jar')
+    compile fileTree(dir: '../terracotta-3.5.1/terracotta-3.5.1/common', include: '*.jar')
+}

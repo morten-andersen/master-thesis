@@ -1,0 +1,12 @@
+dependencies {
+	compile fileTree(dir: '../lib', include: '*.jar')
+}
+
+task zip(overwrite:true, type: Zip, dependsOn: jar) {
+  into('app') {
+		from jar.archivePath
+		rename "${project.name}-${version}.jar", 'launch.jar'
+		from configurations.runtime
+	}
+	from 'etc/wrapper'
+}

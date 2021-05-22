@@ -1,0 +1,34 @@
+#!/bin/bash
+
+# take a copy of this file to "ec2-env" and modify the user account settings and maybe 
+# the JAVA_HOME setting
+
+DIR=$(dirname $0)
+
+# account settings for Amazon EC2 - set these to correct values for your account.
+export EC2_KEY=${DIR}/certs/<pk-XXX.pem>
+export EC2_CERT=${DIR}/certs/<cert-XXX.pem>
+# the SSH keypair name - the private key for this must be placed
+# in the ssh folder as "aws-itvest.pem" (or modify the ssh/config file to point to it)
+export EC2_KEYPAIR=<ec2-keypair-name>
+
+export JAVA_HOME=/usr/lib/jvm/java-6-sun
+export EC2_HOME=${DIR}/ec2-api-tools/ec2-api-tools-1.4.3.0
+
+# AMI for the Ubuntu version to start from
+# Used here is Ubuntu 10.04 LTS Lucid Lynx
+# eu-west-1, i386, ebs released 2011-02-01
+export EC2_AMI=ami-311f2b45
+export EC2_REGION=eu-west-1
+export EC2_REGION_WS=https://ec2.eu-west-1.amazonaws.com
+export EC2_INSTANCE_TYPE=t1.micro
+
+export EC2_CONTROLLER_APP=${DIR}/../ec2-mgmt/ec2-controller/build/distributions/ec2-controller-1.0.zip
+export EC2_MGMT_CONTROLLER_AWS_SETTINGS=${DIR}/../ec2-mgmt/ec2-mgmt-console/src/main/java/dk/accel/misw/mp/ec2/AwsSettings.properties
+
+# get external IP address of localhost
+export MY_IP="$(wget http://automation.whatismyip.com/n09230945.asp -O - -q)"
+echo "Localhost external IP ${MY_IP}"
+
+export USER=ubuntu
+
