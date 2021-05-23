@@ -1,4 +1,4 @@
-*Different Paths to High Availability by Introducing Redundancy in a Distributed SCADA System*
+***Different Paths to High Availability by Introducing Redundancy in a Distributed SCADA System***
 
 ### Master Thesis - June 14, 2011
 
