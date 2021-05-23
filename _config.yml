@@ -3,8 +3,8 @@ defaults:
   - scope:
       path: ""
     values:
-      title: "⚙️ Morten Andersen ⚙️ Master Thesis 2011"
+      title: "⚙️ Morten Andersen ⚙️ Master of Information Technology ⚙️ Software Development"
       image:
-        path: /master2011-MA-frontpage.png
+        path: /master-exam-2011-06-27.png
         height: 640
         width: 1280
