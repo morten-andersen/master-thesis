@@ -26,3 +26,13 @@ The tests revealed that the DSM based prototype failed in fulfilling the new req
 
 [![Appendix G](./appendix/master2011-MA-appendix-G.png "Appendix G")](./appendix/master2011-MA-appendix-G.pdf)
 [![Appendix H](./appendix/master2011-MA-appendix-H.png "Appendix H")](./appendix/master2011-MA-appendix-H.pdf)
+
+[![CC BY 4.0][cc-by-image]][cc-by]
+
+*This work is licensed under a [Creative Commons Attribution 4.0 International
+License][cc-by].*
+
+*© Morten Andersen - 🔗 [accel.dk](https://www.accel.dk/)*
+
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
