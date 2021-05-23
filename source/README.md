@@ -9,7 +9,7 @@ the shell file setup.sh.
 
 ### The sub folders in the source are listed below:
 
-* **model:** This folder contains source code and build files for the original model system with no availability functionality as described in chapter 2 of the thesis.
+* [**model**](./model): This folder contains source code and build files for the original model system with no availability functionality as described in chapter 2 of the thesis.
 * **terracotta:** The source code and build files for the Terracotta based prototype described in chapter 6.2 of the thesis.
 * **hazelcast:** The source code and build files for the Hazelcast based prototype described in chapter 6.3 of the thesis.
 * **end2end:** The source code and build files for the end-to-end based prototype described in chapter 6.4 of the thesis.

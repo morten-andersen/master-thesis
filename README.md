@@ -1,10 +1,10 @@
-## Thesis for **Master of Information Technology, Software Development**
+*Different Paths to High Availability by Introducing Redundancy in a Distributed SCADA System*
 
-*Different Paths to High Availability by Introducing Redundancy in a Distributed SCADA System* - June 14, 2011
+### Master Thesis - June 14, 2011
 
 [![Master Thesis](./master2011-MA-frontpage.png "Master Thesis")](./master2011-MA.pdf)
 
-### Abstract
+#### Abstract
 
 This thesis documents the architectural theory in adding new high availability requirements to an existing highly distributed Java based wind farm Supervisory Control and Data Acquisition (SCADA) system. A soft real-time system with an architecture that was originally designed with performance as the main architectural driver.
 
@@ -14,15 +14,15 @@ To test how the three prototypes performs when applied to the SCADA system, a te
 
 The tests revealed that the DSM based prototype failed in fulfilling the new requirements. The prototype based on network multicasts was almost successful, with some minor bugs that will need additional work. Finally the end-to-end based prototype was very successful in adding the new availability requirements
 
-### Thesis Defense
+#### Thesis Defense - June 27, 2011
 
 [![Thesis Defense](./master-exam-2011-06-27.png "Thesis Defense")](./master-exam-2011-06-27.pdf)
 
-### Source Code
+#### Source Code
 
 * [Source Code](./source)
 
-### Appendices
+#### Appendices G & H - Test Graphs
 
 [![Appendix G](./appendix/master2011-MA-appendix-G.png "Appendix G")](./appendix/master2011-MA-appendix-G.pdf)
 [![Appendix H](./appendix/master2011-MA-appendix-H.png "Appendix H")](./appendix/master2011-MA-appendix-H.pdf)
