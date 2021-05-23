@@ -1,4 +1,4 @@
-## Source Code for the Prototypes
+#### Source Code for the Prototypes
 
 The source code for the prototypes and the test bench tools are included here. The source code and tools are described in appendix A-E in the thesis.
 
@@ -7,7 +7,7 @@ not included. These should be either manually downloaded as
 described in the readme.txt file, or automatically downloaded by using
 the shell file setup.sh.
 
-### The sub folders in the source are listed below:
+##### The sub folders in the source are listed below:
 
 * [**model**](./model): This folder contains source code and build files for the original model system with no availability functionality as described in chapter 2 of the thesis.
 * **terracotta:** The source code and build files for the Terracotta based prototype described in chapter 6.2 of the thesis.
