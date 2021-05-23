@@ -10,8 +10,8 @@ the shell file setup.sh.
 #### The sub folders in the source are listed below:
 
 * [**model**](https://github.com/morten-andersen/master-thesis/tree/main/source/model): This folder contains source code and build files for the original model system with no availability functionality as described in chapter 2 of the thesis.
-* **terracotta:** The source code and build files for the Terracotta based prototype described in chapter 6.2 of the thesis.
-* **hazelcast:** The source code and build files for the Hazelcast based prototype described in chapter 6.3 of the thesis.
-* **end2end:** The source code and build files for the end-to-end based prototype described in chapter 6.4 of the thesis.
-* **aws:** This folder contains shell script files automating the task of preparing and creating an Amazon EC2 image that can be used as node in the test bench. The content of this folder is described in details in appendix E of the thesis.
-* **ec2-mgmt:** This folder contains the source code for the EC2 Java based con troller applications used for running the tests. This is described in details in appendix D of the thesis
+* [**terracotta**](https://github.com/morten-andersen/master-thesis/tree/main/source/terracotta): The source code and build files for the Terracotta based prototype described in chapter 6.2 of the thesis.
+* [**hazelcast**](https://github.com/morten-andersen/master-thesis/tree/main/source/hazelcast): The source code and build files for the Hazelcast based prototype described in chapter 6.3 of the thesis.
+* [**end2end**](https://github.com/morten-andersen/master-thesis/tree/main/source/end2end): The source code and build files for the end-to-end based prototype described in chapter 6.4 of the thesis.
+* [**aws**](https://github.com/morten-andersen/master-thesis/tree/main/source/aws): This folder contains shell script files automating the task of preparing and creating an Amazon EC2 image that can be used as node in the test bench. The content of this folder is described in details in appendix E of the thesis.
+* [**ec2-mgmt**](https://github.com/morten-andersen/master-thesis/tree/main/source/ec2-mgmt): This folder contains the source code for the EC2 Java based con troller applications used for running the tests. This is described in details in appendix D of the thesis
