@@ -7,3 +7,5 @@ defaults:
         path: /master-exam-2011-06-27.png
         height: 640
         width: 1280
+plugins:
+  - jekyll-sitemap
