@@ -1,8 +1,8 @@
+### 🎓 Master Thesis - June 14, 2011
+
 **Title:** ***Different Paths to High Availability by Introducing Redundancy in a Distributed SCADA System***
 
 *The world is never going to be perfect, either on- or offline; so let’s not set impossibly high standards for online* -- **Esther Dyson**
-
-### 🎓 Master Thesis - June 14, 2011
 
 [![Master Thesis](./master2011-MA-frontpage.png "Master Thesis")](./master2011-MA.pdf)
 
