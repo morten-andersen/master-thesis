@@ -1,4 +1,4 @@
-### 🎓 Master Thesis
+### 🎓 Master Thesis 🎓
 
 **Title:** ***Different Paths to High Availability by Introducing Redundancy in a Distributed SCADA System***
 
@@ -7,6 +7,8 @@
 *The world is never going to be perfect, either on- or offline; so let’s not set impossibly high standards for online* -- **Esther Dyson**
 
 [![Master Thesis](./master2011-MA-frontpage.png "Master Thesis")](./master2011-MA.pdf)
+
+***
 
 #### 📓 Abstract
 
@@ -18,23 +20,30 @@ To test how the three prototypes performs when applied to the SCADA system, a te
 
 The tests revealed that the DSM based prototype failed in fulfilling the new requirements. The prototype based on network multicasts was almost successful, with some minor bugs that will need additional work. Finally the end-to-end based prototype was very successful in adding the new availability requirements
 
+***
+
 #### 🧑‍🏫 Thesis Defense - June 27, 2011
 
 [![Thesis Defense](./master-exam-2011-06-27.png "Thesis Defense")](./master-exam-2011-06-27.pdf)
 
+***
+
 #### 🧑‍💻 Source Code
 
 * [Source Code](./source)
+
+***
 
 #### 📚 Appendices G & H - Test Graphs
 
 [![Appendix G](./appendix/master2011-MA-appendix-G.png "Appendix G")](./appendix/master2011-MA-appendix-G.pdf)
 [![Appendix H](./appendix/master2011-MA-appendix-H.png "Appendix H")](./appendix/master2011-MA-appendix-H.pdf)
 
+***
+
 [![CC BY 4.0][cc-by-image]][cc-by]
 
-*This work is licensed under a [Creative Commons Attribution 4.0 International
-License][cc-by].*
+*This work is licensed under a [Creative Commons Attribution 4.0 International License][cc-by]*
 
 *© Morten Andersen - 🔗 [accel.dk](https://www.accel.dk/)*
 
